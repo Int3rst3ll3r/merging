@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center"
+    android:padding="16dp"
+    tools:context=".secondpage">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginTop="0dp"
+        android:text="@string/upload_following_documents"/>
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        android:text="Passportsize Photo"
+        android:layout_marginBottom="8dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPick"
+        android:text="choose image"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imagePick"
+        android:contentDescription="@string/todo" />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginTop="14dp"
+        android:text="Upload payment invoice"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_select"
+        android:text="@string/select_pdf"
+        android:layout_marginTop="6dp"/>
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_uri"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginTop="4dp"/>
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_path"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginTop="2dp"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_select2"
+        android:text="@string/submit"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

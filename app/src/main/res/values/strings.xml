@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">merging</string>
+    <string name="select_pdf">select PDF</string>
+    <string name="upload_college_employee_id_card">Upload College/Employee ID card</string>
+    <string name="select_pdf1">select PDF</string>
+    <string name="upload_passport_size_photo">Upload Passport Size photo</string>
+    <string name="choose_image">choose image</string>
+    <string name="submit">SUBMIT</string>
+    <string name="todo">TODO</string>
+    <string name="upload_any_id_proof">Upload any ID proof</string>
+    <string name="upload_following_documents">Upload Following Documents</string>
+</resources>
